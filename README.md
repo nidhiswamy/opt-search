@@ -1,3 +1,4 @@
-# OPT Search
+# OPT Search Python Scraper
 
-Web scraper to faciliate companies offering OPT jobs
+A web scraper to obtain links of companies offering OPT job openings
+

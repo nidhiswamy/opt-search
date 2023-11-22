@@ -9,9 +9,9 @@ def get_company_links(page_url):
     job_openings = []
     if response.ok:
         soup = BeautifulSoup(response.text, 'html.parser')
-        print(f"Soup = {soup}")
-        rows = soup.find_all('tr', {'class': ["even", "odd"]})
-
+        # print(f"Soup = {soup}")
+        rows = soup.find_all('tr')
+                             # , {'class': ["even", "odd", "views-row-first"]})
         # rows empty
         print(f"Rows: {rows}")
 
